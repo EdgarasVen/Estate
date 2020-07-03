@@ -18,3 +18,42 @@ Alternatively you can use the [Spring Boot Maven plugin](https://docs.spring.io/
 ```shell
 mvn spring-boot:run
 ```
+
+## Running the application from emty folder
+
+Open PowerShell.
+
+Create new folder.
+```shell
+mkdir project
+```
+
+Go inside.
+```shell
+cd .\project\
+```
+
+Download all files.
+```shell
+git clone https://github.com/EdgarasVen/Estate.git
+```
+
+Go inside.
+```shell
+cd .\Estate\
+```
+
+Run spring boot.
+```shell
+mvn spring-boot:run 
+```
+
+## H2 and Swagger
+
+H2 url: http://localhost:8080/h2/
+Swagger url: http://localhost:8080/swagger-ui.html#/
+
+
+## Other information
+
+Full work with all commits to check go to [My repository](https://github.com/EdgarasVen/Projects/tree/master/estate/app)
